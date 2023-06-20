@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Travel reservation form</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <section>
+        <h3>* denotes mandotory</h3> 
+        <form id="form">
+            <label>Full name*: <input id="full-name" class="inputs" name="full name" type="text" required placeholder="FirstName LastName"/></label>
+            <label>Email Address*: <input id="email-address" class="inputs" name="email address" type="email" required placeholder="EMAIL_ADDRESS"/></label>
+            <label>Select Tour Package*:
+                <select id="tourPackage" name="tour-package">
+                  <option value="">Goa</option>
+                  <option value="1">Berlim</option>
+                  <option value="2">Paris</option>
+                  <option value="3">London</option>
+                </select>
+            </label>
+            <label>Arrival date*: <input id="arrival-date" class="inputs" name="arrival date" type="datetime" required placeholder="m/d/y"/></label>
+            <label>Number of persons*: <input id="number-of-persons" class="inputs" name="number of persons" type="number" required placeholder="UNKNOWN_TYPE"/></label>
+            <label>What would you want to avail?*</label>
+            <label> Boarding <input type="checkbox" class = "checks" required/></label>
+            <label> Fooding <input type="checkbox" class = "checks" required/></label>
+            <label> Sight seeing <input type="checkbox" class = "checks" required/></label>
+            <label> Discount Coupon code: <input id="Discount-coupon" class="inputs" name="Discount Coupon code" type="number" required placeholder="UNKNOWN_TYPE"/></label>
+            <label> Terms and conditions*</label>
+            <label class="inline"><input type="radio" class="inline" name="agreement"/> I agree</label>
+            <label class="inline"><input type="radio" class="inline" name="agreement"/> I disagree</label>
+            <input type="submit" value="Complete reservation"/>
+        </form>
+    </section>
+</body>
+</html>

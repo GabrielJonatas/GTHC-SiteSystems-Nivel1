@@ -1,0 +1,19 @@
+label {
+    display: block;
+}
+
+.inputs {
+    display: block;
+}
+
+#tourPackage {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+input[type="submit"] {
+    display: block;
+}
