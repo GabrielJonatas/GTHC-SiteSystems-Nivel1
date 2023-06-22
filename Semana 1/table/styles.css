@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(28, 26, 26);
+    letter-spacing: 1px;
+    width:80%
+}
+
+td , th {
+    border: 2px solid rgb(28, 26, 26);
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 0;
+    text-align: center;
+}
+
+tr {
+    width: 50%;  
+}
+
+.headers {
+    font-size: 1.2em;
+}
+
+
+
+
