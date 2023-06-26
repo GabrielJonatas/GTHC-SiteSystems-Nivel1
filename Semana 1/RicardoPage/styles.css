@@ -1,0 +1,36 @@
+body {
+    width: 50%;
+    margin: 10px;
+    background-color: rgb(247, 186, 139);
+    color: rgb(19, 139, 31);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+fieldset {
+    margin-top: -20px;
+    border: none;
+    border-bottom: 1px solid rgb(33, 20, 131);
+    margin-bottom: 30px;
+}
+
+#wrapper {
+    margin: 0px auto;
+}
+
+#box1 {
+    padding-bottom: 125px;
+}
+
+#sasha {
+    float: left;
+    padding-left: 0px;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+#box2 {
+    padding-top: 140px;
+    display: block;
+}
