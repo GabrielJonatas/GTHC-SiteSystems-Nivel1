@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(73, 87, 102);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#white-box {
+    background-color: white;
+    position: relative;
+    left: 150px;
+    top: 90px;
+    width: 500px;
+    height: 650px;
+    border-radius: 30px;
+    color: rgb(39, 39, 39);
+}
+
+#dark-box {
+    background-color: rgb(33, 35, 37);
+    position: relative;
+    left: 700px;
+    top: -460px;
+    width: 520px;
+    height: 800px;
+    border-radius: 30px 30px 0px 0px;
+    color: white;
+    border-top: 2px ;
+}
+
+.dot {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(220, 255, 236);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2 {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(33, 35, 37);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.centralizador {
+    position: relative;
+    left: 200px;
+    top: 40px;
+}
+
+.centralizador2 {
+    position: relative;
+    left: 220px;
+    top: -40px;
+}
+
+.divisao1 {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.divisao2 {
+    border-top: 2px solid rgb(235, 235, 235);
+    margin: 40px 40px 8px 30px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.divisao3 {
+    border-top: 2px solid rgb(235, 235, 235);
+    margin: 0px 30px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.divisao4 {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.divisao5 {
+    border-top: 1px solid rgb(87, 87, 87);
+    margin: 40px 40px -10px 40px;
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.divisao6 {
+    margin-left: 35px;
+
+}
+
+.divisao7 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.divisao8 {
+    margin-top: 40px;
+    height: 70px;
+    width: 100%;
+    background-image: url("circle.png");
+    background-repeat: space;
+}
+
+.divisao7 label {
+    margin-left: 10px;
+}
+
+.divisao2 p {
+    display: inline-block;
+    margin-top: -10px;
+}
+
+.divisao3 p {
+    display: inline-block;
+    margin-top: -10px;
+}
+
+.left {
+    text-align: left;
+    width: 40%;
+    color: gray;
+}
+
+.box {
+    border: 1px solid rgb(87, 87, 87);
+    margin: 8px;
+    width: 190px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 8px 10px 15px 10px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.box h3 {
+    margin-top: -5px;
+}
+
+.right {
+    text-align: right;
+    width: 60%;
+    color: black;
+}
