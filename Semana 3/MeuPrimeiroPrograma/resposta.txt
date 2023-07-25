@@ -1,0 +1,3 @@
+O que esse programa faz?
+
+Ele abre uma pagina em branco mostrando uma caixa com a mensagem "Hello, world!"
